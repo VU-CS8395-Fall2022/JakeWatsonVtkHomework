@@ -437,7 +437,7 @@ int main ( int argc, char **argv )
      mesh1->Modified();
      
     }
-  
+  /*
   vtkSmartPointer<vtkTimerCallback2> timerCallback = vtkSmartPointer<vtkTimerCallback2>::New();
   //timerCallback->actor = actor1;
   //timerCallback->maxCount = 5;
@@ -449,7 +449,7 @@ int main ( int argc, char **argv )
   std::cout <<"The interactor starts next" << std::endl;
   interactor->Start() ;
   std::cout <<"The interactor has closed" << std::endl;
-  
+  */
   return 0 ;
 }
 ////./VtkHW ~/VU\ work/Open\ Source/Set6/lh.pial.vtp
